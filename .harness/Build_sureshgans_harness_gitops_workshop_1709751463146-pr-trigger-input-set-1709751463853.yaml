@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sureshgans_harness_gitops_workshop_1709751463146-pr-trigger-input-set
+  identifier: Build_sureshgans_harness_gitops_workshop_1709751463146prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sureshgans_harness_gitops_workshop_1709751463146
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
